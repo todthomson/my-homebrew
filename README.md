@@ -42,6 +42,8 @@ brew install pyenv pyenv-virtualenv
 pyenv install 2.7.11
 pyenv rehash
 pyenv global 2.7.11
+pip install --upgrade pip
+pip install grip
 
 # ruby (via rvm)
 # TODO: ...
