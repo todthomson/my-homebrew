@@ -28,6 +28,10 @@ brew install zsh zsh-completions
 
 # git
 brew install git
+git config --global user.name "Tod Thomson"
+git config --global user.email "todthomson@?"
+git config --global credential.helper osxkeychain
+git config --global push.default simple
 
 # node (via nvm)
 brew install nvm # and add as instructed to ~/.zshrc
